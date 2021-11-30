@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Passion+One:400");
+/* Reset */
+ 
+html, body, div, nav, ul, li, footer, span, applet, object, iframe, h1, h2, h3, h4, p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    justify-content: center;
+    font-size: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+ul{
+  position:absolute;
+  top:15%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  margin:0;
+  padding:0;
+  display: flex;
+}
+
+
+nav ul li:hover{
+  color: azure;
+  text-shadow:
+
+      0 0 21px rgb(255, 217, 2),
+      0 0 71px goldenrod;
+}
+
+nav ul li{
+    display: block;
+    float:right;
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left:  1em;
+    margin-right: 2em;
+    margin-left: 1em;
+    background-color: black;
+    color: wheat;
+    opacity: 70%;
+}
+
+.h1:hover {
+  text-shadow:
+      0 0 5px azure,
+      0 0 15px yellowgreen,
+      0 0 23px yellow,
+      0 0 71px goldenrod;
+
+    transition: 2s;
+}
+
+.h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 1em;
+    padding-top: 5.2em;
+    padding-bottom: 3em;
+    padding-right: 1em;
+    font-size: 6em;
+    color: rgb(236, 236, 236);
+    background-color: transparent;
+}
+
+.header-img{
+    width: 100%;
+    height: fit-content;
+    background: url(https://images.unsplash.com/photo-1624567881801-a5a85867d990?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+}
+
+.h2:hover{
+  color: azure;
+  text-shadow:
+      0 0 71px goldenrod,
+      0 0 21px yellow;
+
+    transition:0.2s;
+}
+
+.h2{
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 1em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-right: 1em;
+    font-size: 5em;
+    text-align: center;
+    flood-opacity: 100%;
+    color: wheat;
+    background-color: rgb(17, 10, 12);
+
+}
+
+.ccard{
+    width: 100%;
+    background: url(https://images.unsplash.com/photo-1509130298739-651801c76e96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+}
+
+.bcard{
+    width: 100%;
+    background: url(https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+}
+
+.scard{
+    width: 100%;
+    height: 100%;
+    background: url(https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1590&q=80);
+    background-size: cover;
+}
+
+.pcard{
+    width: 100%;
+    background: url(https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+}
+.more:hover{
+  color: azure;
+  text-shadow:
+
+      0 0 21px rgb(255, 217, 2),
+      0 0 71px goldenrod;
+
+    transition: .2s;
+}
+
+.more{
+    display: block;
+    font-size: medium;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.4rem;
+    text-align: center;
+    color: goldenrod;
+    background-color: rgb(0, 15, 17);
+
+}
+
+
+div p{
+    display: flex;
+    font-size: medium;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 3em;
+    padding-bottom: 9em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 0.9rem;
+    text-align: center;
+    color: goldenrod;
+    background-color:black;
+}

@@ -11,9 +11,20 @@ html, body, div, nav, ul, li, footer, span, applet, object, iframe, h1, h2, h3, 
     vertical-align: baseline;
 }
 
+.logo{
+    position:absolute;
+    top:2%;
+    left:3%;
+    transform: translate(-50%, -50%);
+    margin:0;
+    padding:0;
+    display: flex;
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+}
 ul{
   position:absolute;
-  top:10%;
+  top:13%;
   left:50%;
   transform: translate(-50%, -50%);
   margin:0;
@@ -26,7 +37,7 @@ nav ul li:hover{
   color: wheat;
   text-shadow:
       0 0 10px whitesmoke,
-      0 0 21px magenta,
+      0 0 21px gold,
       0 0 100px goldenrod;
 
     transition: .5s;
@@ -34,71 +45,95 @@ nav ul li:hover{
 
 nav ul li{
     display: block;
-    float:right;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1em;
     font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
     text-transform: capitalize;
-    padding-bottom: 1em;
-    padding-top: 1em;
-    padding-right: 1em;
-    padding-left:  1em;
-    margin-right: 2em;
+    padding: 1em;
+    margin-right: 5em;
     margin-left: 1em;
     background-color: black;
     color: wheat;
     opacity: 70%;
+    cursor: pointer;
 }
 
 .h1:hover {
-  text-shadow:
-      0 0 23px white,
-      0 0 200px goldenrod;
+    color: gold;
+    text-shadow:white 5px 5px,
+      0 0 100px gold,
+      0 0 200px yellow,
+      0 0 500px orange;
 
-    transition: 2.5s;
+    transition: .5s;
 }
 
 .h1{
+    color: blue;
+    text-shadow: white 1px 5px;
     text-align: center;
     text-transform: capitalize;
     font-family:'Times New Roman', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-left: 1em;
-    padding-top: 4.2em;
-    padding-bottom: 3em;
-    padding-right: 1em;
-    font-size: 6em;
-    color: silver;
+    padding-top: 3em;
+    padding-bottom: .05em;
+    font-size: 7em;
     background-color: transparent;
 }
 
+.button{
+    font-size: 80px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    background-position: cover;
+    color: darkgoldenrod;
+}
+
+div article:hover{
+    color: blue;
+    text-shadow: white 5px 5px,
+      0 0 100px gold,
+      0 0 200px black,
+      0 0 500px orange;
+
+    transition: .1s;
+}
+div article{
+    color: black;
+    text-shadow: white 1px 5px;
+    font-size: 4em;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 1em;
+    padding-bottom: 6em;
+}
 .header-img{
     width: 100%;
-    height: fit-content;
-    background: url(https://images.unsplash.com/photo-1480944657103-7fed22359e1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
+    height: 100%;
+    background: url(https://images.unsplash.com/photo-1513346940221-6f673d962e97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
     background-size: cover;
     background-color: black;
 }
 
 .h2:hover{
-  text-shadow:
-      0 0 10px white,
-      0 0 100px gray,
-      0 0 200px goldenrod;
+    color: gold;
+    text-shadow:white 2px 5px,
+      0 0 100px gold,
+      0 0 200px yellow,
+      0 0 500px orange;
 
-    transition:0s;
+    transition: .05s;
 }
 
 .h2{
     text-transform: capitalize;
     font-family:'Times New Roman', Times, serif;
-    padding-left: 1em;
-    padding-top: 3em;
+    padding-top: 4em;
     padding-bottom: 3em;
-    padding-right: 1em;
     font-size: 5em;
     text-align: center;
     flood-opacity: 100%;
     color: white;
+    text-shadow: white 1px 2px;
     background-color: transparent;
 
 }
@@ -106,28 +141,21 @@ nav ul li{
 .ccard{
     width: 100%;
     background: url(https://images.unsplash.com/photo-1622126807280-9b5b32b28e77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2060&q=80);
-    background-size: fit-content;
+    background-size: cover;
     background-color: black;
 }
 
 .bcard{
     width: 100%;
     height: 100%;
-    background: url(https://images.unsplash.com/photo-1628582236286-6087691d2885?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background: url(https://images.unsplash.com/photo-1622126807280-9b5b32b28e77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2060&q=80);
     background-size: cover;
     background-color: black;
 }
 
 .scard{
     height: 100%;
-    background: url(https://images.unsplash.com/photo-1546525506-495a7647977b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=cop&w=1170&q=80);
-    background-size: cover;
-    background-color: black;
-}
-
-.pcard{
-    width: 100%;
-    background: url(https://images.unsplash.com/photo-1616711823936-9de02bffaa6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+    background: url(https://images.unsplash.com/photo-1622126807280-9b5b32b28e77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2060&q=80);
     background-size: cover;
     background-color: black;
 }
@@ -142,30 +170,43 @@ nav ul li{
 }
 
 .more{
-    float: center;
     display: block;
     font-size: medium;
     text-transform: capitalize;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-top: 1em;
-    padding-bottom: 1.5em;
+    padding-bottom: 1.2em;
     font-size: 1.4rem;
     text-align: center;
-    color: white;
+    color: rgb(255, 0, 0);
     background-color: black;
     opacity: 70%;
 }
+
+div p :hover{
+      text-shadow:
+      0 0 10px white,
+      0 0 100px gray,
+      0 0 200px goldenrod;
+
+    transition:0s;
+
+}
 div p{
-    font-size: 2em;
+    color: black;
     text-transform: bold;
     font-family: Georgia, Times, 'Times New Roman', serif;
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
     padding-left: 1em;
     padding-right: 1em;
     font-size: 1em;
-    text-align: center;
-    color: goldenrod;
-    background-color:black;
+    text-align: left;
+    background-color:transparent;
     background-position: cover;
+}
+.nametag{
+    background-color:;
+    text-align: center;
+    color: white;
 }
